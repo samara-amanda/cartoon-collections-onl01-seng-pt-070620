@@ -31,9 +31,10 @@ end
 
 def find_the_cheese(strings)
   cheese_types = ["cheddar", "gouda", "camembert"]
+  i = 0
 
   strings.include?(cheese_types)
-    if true
-      puts "#{strings[i]}"
+    if strings[i] == true
+      puts "#{strings}"
     end
 end
