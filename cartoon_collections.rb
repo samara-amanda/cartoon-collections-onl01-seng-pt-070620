@@ -35,5 +35,6 @@ def find_the_cheese(strings)
 
   while strings.include? (cheese_types)
     return "#{string[i]}"
+  end
 
 end
