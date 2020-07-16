@@ -37,4 +37,5 @@ def find_the_cheese(strings)
     if string == true
       return "#{string[i]}"
     end
+  end
 end
