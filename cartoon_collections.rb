@@ -36,5 +36,6 @@ def find_the_cheese(strings)
   strings.include?(cheese_types)
     if strings[i] == true
       puts "#{strings[i]}"
+      i = i + 1
     end
 end
