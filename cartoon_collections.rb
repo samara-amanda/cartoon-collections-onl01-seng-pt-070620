@@ -31,5 +31,5 @@ end
 
 def find_the_cheese(strings)
   cheese_types = ["cheddar", "gouda", "camembert"]
-  string.find {|cheese_types| cheese_types.is_a?(string)}
+  cheese_types.find {|string| string.is_a?(string)}
 end
